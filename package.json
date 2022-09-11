@@ -1,0 +1,21 @@
+{
+	"name": "discord-ifttt",
+	"version": "1.0.0",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"lint": "xo",
+		"lint:fix": "xo --fix",
+		"lint:check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"axios": "^0.27.2"
+	},
+	"devDependencies": {
+		"@tsconfig/node16": "^1.0.3",
+		"@vercel/node": "^2.5.11"
+	},
+	"engines": {
+		"node": "16.x"
+	}
+}
